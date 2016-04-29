@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Walmart e-commerce App running on Firefox Browser" duration-ms="55962" started-at="2016-04-29T21:10:12Z" finished-at="2016-04-29T21:11:08Z">
+    <groups>
+    </groups>
+    <test name="Home Page" duration-ms="55962" started-at="2016-04-29T21:10:12Z" finished-at="2016-04-29T21:11:08Z">
+      <class name="homePage.Search">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:homePage.Search@21bcffb5]" name="setUp" is-config="true" duration-ms="14858" started-at="2016-04-29T17:10:12Z" finished-at="2016-04-29T17:10:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shahidaLucky]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[43.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[http://www.walmart.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test()[pri:0, instance:homePage.Search@21bcffb5]" name="test" duration-ms="39884" started-at="2016-04-29T17:10:27Z" finished-at="2016-04-29T17:11:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:homePage.Search@21bcffb5]" name="cleanUp" is-config="true" duration-ms="1196" started-at="2016-04-29T17:11:07Z" finished-at="2016-04-29T17:11:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- homePage.Search -->
+    </test> <!-- Home Page -->
+  </suite> <!-- Walmart e-commerce App running on Firefox Browser -->
+</testng-results>

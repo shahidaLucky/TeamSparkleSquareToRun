@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AetnaHealth App running on Firefox Browser">
+
+
+    <parameter name="url" value="http://www.aetna.com"/>
+
+
+    <test name="Home Page">
+
+        <classes>
+            <class name="homePage.Search"/>
+        </classes>
+
+    </test>
+
+</suite>
