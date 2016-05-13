@@ -18,7 +18,7 @@
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
-    <build>
+    <!---<build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -46,7 +46,7 @@
     <properties>
         <CitiBankAppRunner>citibankTestRunner.xml</CitiBankAppRunner>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
+    <! </properties>-->
 
 
 
