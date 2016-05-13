@@ -22,6 +22,7 @@
         <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="BestBuy" />
         <module name="Generic" />
         <module name="Target" />
       </profile>
@@ -38,13 +39,6 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="Facebook" />
-      </profile>
-      <profile default="false" name="Annotation profile for BestBuy" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="BestBuy" />
       </profile>
       <profile default="false" name="Annotation profile for Cnn" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -78,7 +72,7 @@
     <bytecodeTargetLevel>
       <module name="AetnaHealth" target="1.8" />
       <module name="Amazon" target="1.8" />
-      <module name="BestBuy" target="1.8" />
+      <module name="BestBuy" target="1.5" />
       <module name="CitiBank" target="1.8" />
       <module name="Cnn" target="1.8" />
       <module name="Facebook" target="1.8" />

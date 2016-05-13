@@ -35,7 +35,7 @@ public class CommonAPI {
     @BeforeMethod
     public void setUp(@Optional("false") boolean usecloud, @Optional("shahidaLucky") String userName, @Optional("")
     String accessKey, @Optional("Windows 10") String os, @Optional("firefox") String browserName, @Optional("34")
-                      String browserVersion, @Optional("http://www.facebook.com") String url)throws IOException {
+                      String browserVersion, @Optional("http://www.walmart.com") String url)throws IOException {
         if(usecloud==true){
             //run in cloud
             getCloudDriver(userName,accessKey,os,browserName,browserVersion);
