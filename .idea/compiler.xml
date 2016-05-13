@@ -19,18 +19,60 @@
       </profile>
       <profile default="false" name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="Generic" />
+        <module name="Target" />
+      </profile>
+      <profile default="false" name="Annotation profile for Walmart" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="Walmart" />
+      </profile>
+      <profile default="false" name="Annotation profile for Facebook" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="Facebook" />
+      </profile>
+      <profile default="false" name="Annotation profile for BestBuy" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="BestBuy" />
+      </profile>
+      <profile default="false" name="Annotation profile for Cnn" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="Cnn" />
+      </profile>
+      <profile default="false" name="Annotation profile for CitiBank" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="CitiBank" />
+      </profile>
+      <profile default="false" name="Annotation profile for Amazon" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="Amazon" />
+      </profile>
+      <profile default="false" name="Annotation profile for AetnaHealth" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="AetnaHealth" />
-        <module name="Amazon" />
-        <module name="BestBuy" />
-        <module name="CitiBank" />
-        <module name="Cnn" />
-        <module name="Facebook" />
-        <module name="Generic" />
-        <module name="Target" />
-        <module name="Walmart" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

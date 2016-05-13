@@ -9,7 +9,7 @@
     <test name="Home Page">
 
         <classes>
-            <class name=""/>
+            <class name="HomePage.LoginOnFb"/>
         </classes>
 
     </test>
