@@ -47,13 +47,6 @@
         <processorPath useClasspath="true" />
         <module name="Cnn" />
       </profile>
-      <profile default="false" name="Annotation profile for CitiBank" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="CitiBank" />
-      </profile>
       <profile default="false" name="Annotation profile for Amazon" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
@@ -67,6 +60,13 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="AetnaHealth" />
+      </profile>
+      <profile default="false" name="Annotation profile for CitiBank" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="CitiBank" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
