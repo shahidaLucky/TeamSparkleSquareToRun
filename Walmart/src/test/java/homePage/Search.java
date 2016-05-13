@@ -10,7 +10,6 @@ public class Search extends CommonAPI {
 
     @Test
     public void test() throws InterruptedException {
-
         System.out.println("Test has started");
         typeByCss("#search", "ipad");
         Thread.sleep(2000);
@@ -29,7 +28,8 @@ public class Search extends CommonAPI {
 //        clickOnCss(".dropdown-link js-flyout-toggle flyout-toggle");
 //        Thread.sleep(2000);
         //clickByXpath(".//*[@id='flyout15']/ul/span[2]/li[1]");
-
+        typeByCss("#login-username", "kawsar_184@yahoo.com");
+        typeByCss("#login-password", "kawsar101");
         clickByXpath("html/body/div[2]/section/section[4]/div/div/div/div/div/div/form/div/button");
         Thread.sleep(3000);
         System.out.println(driver.getCurrentUrl());
