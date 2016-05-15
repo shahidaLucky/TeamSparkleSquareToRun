@@ -56,7 +56,7 @@
             <activation>
                 <activeByDefault>true</activeByDefault>
             </activation>
-            <modules>
+            <!---<modules>
                 <module>Generic</module>
                 <module>Cnn</module>
                 <module>Amazon</module>
@@ -65,7 +65,7 @@
                 <module>BestBuy</module>
                 <module>Walmart</module>
                 <module>AetnaHealth</module>
-            </modules>
+            </modules>!-->
         </profile>
         <profile>
             <id>cnn-app</id>
