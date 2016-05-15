@@ -19,54 +19,52 @@ public class DataReader {
     Cell cell = null;
     FileOutputStream fio = null;
     int numberOfRows, numberOfCol, rowNum;
-
-    public String[][] fileReader1(String path) throws IOException {
-        String[][] data = {};
+    public String[][] fileReader1(String path)throws IOException{
+        String [] [] data = {};
         File file = new File(path);
         FileInputStream fis = new FileInputStream(file);
         wb = new HSSFWorkbook(fis);
         sheet = wb.getSheetAt(0);
         numberOfRows = sheet.getLastRowNum();
-        numberOfCol = sheet.getRow(0).getLastCellNum();
-        data = new String[numberOfRows + 1][numberOfCol + 1];
+        numberOfCol =  sheet.getRow(0).getLastCellNum();
+        data = new String[numberOfRows+1][numberOfCol+1];
 
-        for (int i = 1; i < data.length; i++) {
+        for(int i=1; i<data.length; i++){
             HSSFRow rows = sheet.getRow(i);
-            for (int j = 0; j < numberOfCol; j++) {
+            for(int j=0; j<numberOfCol; j++){
                 HSSFCell cell = rows.getCell(j);
                 String cellData = getCellValue(cell);
                 data[i][j] = cellData;
             }
         }
-        return data;
+        return  data;
     }
-
-    public String[] fileReader(String path) throws IOException {
-        String[] data = {};
+    public String[] fileReader(String path)throws IOException{
+        String []  data = {};
         File file = new File(path);
         FileInputStream fis = new FileInputStream(file);
         wb = new HSSFWorkbook(fis);
         sheet = wb.getSheetAt(0);
         numberOfRows = sheet.getLastRowNum();
-        numberOfCol = sheet.getRow(0).getLastCellNum();
-        data = new String[numberOfRows + 1];
+        numberOfCol =  sheet.getRow(0).getLastCellNum();
+        data = new String[numberOfRows+1];
 
-        for (int i = 0; i < data.length; i++) {
+        for(int i=1; i<data.length; i++){
             HSSFRow rows = sheet.getRow(i);
-            for (int j = 0; j < numberOfCol; j++) {
+            for(int j=0; j<numberOfCol; j++){
                 HSSFCell cell = rows.getCell(j);
                 String cellData = getCellValue(cell);
                 data[i] = cellData;
             }
         }
-        return data;
+        return  data;
     }
 
-    public String getCellValue(HSSFCell cell) {
+    public String getCellValue(HSSFCell cell){
         Object value = null;
 
         int dataType = cell.getCellType();
-        switch (dataType) {
+        switch(dataType){
             case HSSFCell.CELL_TYPE_NUMERIC:
                 value = cell.getNumericCellValue();
                 break;
@@ -81,7 +79,7 @@ public class DataReader {
 
     }
 
-    public void writeBack(String value) throws IOException {
+    public void writeBack(String value)throws IOException{
         wb = new HSSFWorkbook();
         sheet = wb.createSheet();
         Row row = sheet.createRow(rowNum);
@@ -89,7 +87,7 @@ public class DataReader {
 
         fio = new FileOutputStream(new File("ExcelFile.xls"));
         wb.write(fio);
-        for (int i = 0; i < row.getLastCellNum(); i++) {
+        for(int i=0; i<row.getLastCellNum(); i++){
             row.createCell(i);
             cell.setCellValue(value);
         }

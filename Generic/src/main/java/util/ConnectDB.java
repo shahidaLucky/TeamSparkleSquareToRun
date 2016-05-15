@@ -8,7 +8,9 @@ import java.util.List;
 import java.util.Properties;
 
 
-public class DBConnect {
+    //Connect to DB
+
+public class ConnectDB {
     private Connection connect = null;
     private Statement statement = null;
     private PreparedStatement preparedStatement = null;
@@ -17,7 +19,7 @@ public class DBConnect {
 
     public static Properties loadPropertiesFile()throws Exception{
         Properties prop = new Properties();
-        InputStream ism = new FileInputStream("C:\\Users\\rrt\\IdeaProjects\\MoonShot\\Generic\\lib\\MySQL.properties");
+        InputStream ism = new FileInputStream("Generic/lib/MySQL.properties");
         prop.load(ism);
         ism.close();
 
@@ -25,7 +27,7 @@ public class DBConnect {
     }
 
     //Connect to Database
-    public void connectToDataBase() throws Exception{
+    public void dbConnect() throws Exception{
         Properties prop = loadPropertiesFile();
         String driverClass = prop.getProperty("MYSQLJDBC.driver");
         String url = prop.getProperty("MYSQLJDBC.url");
@@ -43,12 +45,12 @@ public class DBConnect {
 
         try {
 
-            connectToDataBase();
+            dbConnect();
             // Statements allow to issue SQL queries to the database
             statement = connect.createStatement();
             // Result set get the result of the SQL query
             resultSet = statement
-                    .executeQuery("select * from CnnNewsVertical");
+                    .executeQuery("select * from DataToBeSearched");
             getResultSetData(resultSet);
         } catch (Exception e) {
             throw e;
@@ -65,7 +67,7 @@ public class DBConnect {
     private List<String> getResultSetData(ResultSet resultSet) throws SQLException {
 
         while (resultSet.next()) {
-            String itemName = resultSet.getString("NewsTitle");
+            String itemName = resultSet.getString("items");
 
             list.add(itemName);
 
@@ -75,8 +77,8 @@ public class DBConnect {
     }
     private void writeResultSetToConsole(ResultSet resultSet) throws SQLException {
         while (resultSet.next()) {
-            String itemName = resultSet.getString("NewsTitle");
-            System.out.println("News Title: " + itemName);
+            String itemName = resultSet.getString("items");
+            System.out.println("items: " + itemName);
         }
 
     }

@@ -90,6 +90,9 @@ public class CommonAPI {
         driver.findElement(By.xpath(locator)).click();
     }
 
+    public void clickById(String locator){
+        driver.findElement(By.id(locator)).click();
+    }
     public void typeByCss(String locator, String value) {
         driver.findElement(By.cssSelector(locator)).sendKeys(value);
     }
@@ -215,5 +218,9 @@ public class CommonAPI {
     public void waitUntilSelectable(By locator){
         WebDriverWait wait = new WebDriverWait(driver, 10);
         boolean element = wait.until(ExpectedConditions.elementToBeSelected(locator));
+    }
+    public void upLoadFile(String Locator, String path){
+       driver.findElement(By.cssSelector(Locator)).sendKeys(path);
+        //path= "C:\\User\\rrt\\Pictures\\ds1.png";
     }
 }

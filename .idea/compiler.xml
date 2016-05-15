@@ -22,7 +22,7 @@
         <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="BestBuy" />
+        <module name="CitiBank" />
         <module name="Generic" />
         <module name="Target" />
       </profile>
@@ -61,19 +61,19 @@
         <processorPath useClasspath="true" />
         <module name="AetnaHealth" />
       </profile>
-      <profile default="false" name="Annotation profile for CitiBank" enabled="true">
+      <profile default="false" name="Annotation profile for BestBuy" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="CitiBank" />
+        <module name="BestBuy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="AetnaHealth" target="1.8" />
       <module name="Amazon" target="1.8" />
-      <module name="BestBuy" target="1.5" />
-      <module name="CitiBank" target="1.8" />
+      <module name="BestBuy" target="1.8" />
+      <module name="CitiBank" target="1.5" />
       <module name="Cnn" target="1.8" />
       <module name="Facebook" target="1.8" />
       <module name="Generic" target="1.5" />

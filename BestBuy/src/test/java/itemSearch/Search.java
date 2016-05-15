@@ -30,7 +30,9 @@ public class Search extends CommonAPI {
             clickByCss(".col-xs-12.apple-grey.ipad-air-two-button.bottom-border");
             sleepFor(1);
             clickByCss(".btn.btn-primary.btn-sm.btn-block");
-            sleepFor(1);
+            sleepFor(3);
+            clickByCss(".go-to-cart");
+            sleepFor(2);
         }
 
 

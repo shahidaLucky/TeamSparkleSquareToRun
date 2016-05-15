@@ -2,12 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ece07b79-b9b7-44ac-8383-8d3a34429da6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Facebook/src/test/java/HomePage/Uploading.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Facebook/src/test/resources/facebookTestRunner2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Generic/src/main/java/util/DBConnectTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Generic/src/main/java/util/TestConnectDB.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Generic/src/main/java/util/TestDBConnection.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Generic/src/main/java/util/DBConnect.java" afterPath="$PROJECT_DIR$/Generic/src/main/java/util/ConnectDB.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/data/file1.xls" afterPath="$PROJECT_DIR$/Amazon/data/file1.xls" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BestBuy/target/com.BestBuy-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/BestBuy/target/com.BestBuy-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CitiBank/target/com.citibank-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/CitiBank/target/com.citibank-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/data/actionSteps.xls" afterPath="$PROJECT_DIR$/Cnn/data/actionSteps.xls" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" afterPath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/target/org.Generic-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/Generic/target/org.Generic-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CitiBank/pom.xml" afterPath="$PROJECT_DIR$/CitiBank/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BestBuy/BestBuy.iml" afterPath="$PROJECT_DIR$/BestBuy/BestBuy.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BestBuy/pom.xml" afterPath="$PROJECT_DIR$/BestBuy/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BestBuy/src/test/java/itemSearch/Search.java" afterPath="$PROJECT_DIR$/BestBuy/src/test/java/itemSearch/Search.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CitiBank/CitiBank.iml" afterPath="$PROJECT_DIR$/CitiBank/CitiBank.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facebook/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/Facebook/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/lib/MySQL.properties" afterPath="$PROJECT_DIR$/Generic/lib/MySQL.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/src/main/java/util/DataReader.java" afterPath="$PROJECT_DIR$/Generic/src/main/java/util/DataReader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="TeamSparkleSquare.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,13 +59,68 @@
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="84" column="16" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
+              <caret line="93" column="51" selection-start-line="93" selection-start-column="51" selection-end-line="93" selection-end-column="51" />
               <folding>
-                <element signature="e#3233#3234#0" expanded="true" />
-                <element signature="e#3300#3301#0" expanded="true" />
-                <element signature="e#3722#3723#0" expanded="true" />
-                <element signature="e#3802#3803#0" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#3046#3047#0" expanded="false" />
+                <element signature="e#3075#3076#0" expanded="false" />
+                <element signature="e#3121#3122#0" expanded="false" />
+                <element signature="e#3188#3189#0" expanded="false" />
+                <element signature="e#3233#3234#0" expanded="false" />
+                <element signature="e#3300#3301#0" expanded="false" />
+                <element signature="e#3348#3349#0" expanded="false" />
+                <element signature="e#3409#3410#0" expanded="false" />
+                <element signature="e#3569#3570#0" expanded="false" />
+                <element signature="e#3644#3645#0" expanded="false" />
+                <element signature="e#3705#3706#0" expanded="false" />
+                <element signature="e#3774#3775#0" expanded="false" />
+                <element signature="e#3823#3824#0" expanded="false" />
+                <element signature="e#3903#3904#0" expanded="false" />
+                <element signature="e#3953#3954#0" expanded="false" />
+                <element signature="e#4020#4021#0" expanded="false" />
+                <element signature="e#4259#4260#0" expanded="false" />
+                <element signature="e#4299#4300#0" expanded="false" />
+                <element signature="e#4334#4335#0" expanded="false" />
+                <element signature="e#4377#4378#0" expanded="false" />
+                <element signature="e#4716#4717#0" expanded="false" />
+                <element signature="e#4783#4784#0" expanded="false" />
+                <element signature="e#6870#6871#0" expanded="false" />
+                <element signature="e#6918#6919#0" expanded="false" />
+                <element signature="e#6957#6958#0" expanded="false" />
+                <element signature="e#7007#7008#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bestbuyTestRunner.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BestBuy/src/test/resources/bestbuyTestRunner.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.63883847">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Uploading.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/HomePage/Uploading.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-26.032259">
+              <caret line="107" column="40" selection-start-line="107" selection-start-column="40" selection-end-line="107" selection-end-column="40" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -56,48 +128,28 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Walmart/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.35484">
-              <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bestbuyTestRunner.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BestBuy/src/test/resources/bestbuyTestRunner.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.096774">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Search.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AetnaHealth/src/test/java/homePage/Search.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+            <state vertical-scroll-proportion="-22.774193">
+              <caret line="49" column="17" selection-start-line="21" selection-start-column="3" selection-end-line="49" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AetnaHealth/pom.xml">
+        <entry file="file://$PROJECT_DIR$/BestBuy/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.935484">
-              <caret line="52" column="0" selection-start-line="21" selection-start-column="3" selection-end-line="52" selection-end-column="0" />
+            <state vertical-scroll-proportion="-11.83871">
+              <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CitiBank/pom.xml">
+      <file leaf-file-name="facebookTestRunner2.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Facebook/src/test/resources/facebookTestRunner2.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.039927404">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -107,40 +159,36 @@
         <entry file="file://$PROJECT_DIR$/BestBuy/src/test/java/itemSearch/Search.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+              <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
               <folding>
-                <marker date="1463157238226" expanded="true" signature="245:718" placeholder="{...}" />
+                <element signature="imports" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="amazonTestRunner.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Amazon/src/test/resources/amazonTestRunner.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.806452">
-              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.548388">
-              <caret line="98" column="16" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginOnFb.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/HomePage/LoginOnFb.java">
+      <file leaf-file-name="TestConnectDB.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/util/TestConnectDB.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Search.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/searchitems/Search.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#421#422#0" expanded="false" />
+                <element signature="e#475#476#0" expanded="false" />
+                <element signature="e#506#507#0" expanded="false" />
+                <element signature="e#541#542#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -179,7 +227,6 @@
         <option value="$PROJECT_DIR$/Facebook/src/test/resources/facebookTestRunner.xml" />
         <option value="$PROJECT_DIR$/Walmart/src/test/resources/walmartTestRunner.xml" />
         <option value="$PROJECT_DIR$/Walmart/src/test/java/homePage/Search.java" />
-        <option value="$PROJECT_DIR$/Generic/lib/MySQL.properties" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/util/DBConnectTest.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/util/DBConnectTest.java" />
         <option value="$PROJECT_DIR$/Generic/pom.xml" />
@@ -195,16 +242,20 @@
         <option value="$PROJECT_DIR$/Cnn/src/test/java/news/SearchNewsFromDB.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/util/DataReader.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/util/DBConnect.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/util/TestDBConnection.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Facebook/src/test/java/HomePage/LoginOnFb.java" />
         <option value="$PROJECT_DIR$/AetnaHealth/src/test/java/homePage/Search.java" />
         <option value="$PROJECT_DIR$/Amazon/src/test/resources/amazonTestRunner.xml" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/BestBuy/src/test/resources/bestbuyTestRunner.xml" />
-        <option value="$PROJECT_DIR$/BestBuy/src/test/java/itemSearch/Search.java" />
-        <option value="$PROJECT_DIR$/BestBuy/pom.xml" />
         <option value="$PROJECT_DIR$/CitiBank/pom.xml" />
+        <option value="$PROJECT_DIR$/Facebook/src/test/resources/facebookTestRunner2.xml" />
+        <option value="$PROJECT_DIR$/Generic/lib/MySQL.properties" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/util/TestDBConnection.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/util/TestConnectDB.java" />
+        <option value="$PROJECT_DIR$/BestBuy/src/test/java/itemSearch/Search.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
+        <option value="$PROJECT_DIR$/Facebook/src/test/java/HomePage/Uploading.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/BestBuy/pom.xml" />
       </list>
     </option>
   </component>
@@ -228,6 +279,30 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
       </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="com.BestBuy" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="com.BestBuy" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
     </treeState>
   </component>
   <component name="MavenRunner">
@@ -236,7 +311,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
-    <option name="width" value="1932" />
+    <option name="width" value="1924" />
     <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -264,9 +339,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -295,7 +367,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CitiBank" />
+              <option name="myItemId" value="BestBuy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -309,7 +381,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="AetnaHealth" />
+              <option name="myItemId" value="BestBuy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -323,7 +407,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="AetnaHealth" />
+              <option name="myItemId" value="BestBuy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TeamSparkleSquare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Team3--AutomationFrameWork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BestBuy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -333,116 +439,75 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$USER_HOME$/gitproject/selenium-automation-framework-teamwork2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MoonShot-final version" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Shahida Lucky\IdeaProjects\TeamSparkleSquare\Amazon\src\test" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Shahida Lucky\IdeaProjects\Team3--AutomationFrameWork\Generic\src\main\java" />
+      <recent name="C:\Users\Shahida Lucky\IdeaProjects\Team3--AutomationFrameWork\Amazon" />
+      <recent name="C:\Users\Shahida Lucky\IdeaProjects\Team3--AutomationFrameWork\Walmart\src" />
+      <recent name="C:\Users\Shahida Lucky\IdeaProjects\Team3--AutomationFrameWork\Facebook\src" />
+      <recent name="C:\Users\Shahida Lucky\IdeaProjects\Team3--AutomationFrameWork\CitiBank\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="util" />
       <recent name="news" />
       <recent name="homePage" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Shahida Lucky\IdeaProjects\Team3--AutomationFrameWork\Walmart\src" />
-      <recent name="C:\Users\Shahida Lucky\IdeaProjects\Team3--AutomationFrameWork\Facebook\src" />
-      <recent name="C:\Users\Shahida Lucky\IdeaProjects\Team3--AutomationFrameWork\CitiBank\src" />
-      <recent name="C:\Users\Shahida Lucky\IdeaProjects\Team3--AutomationFrameWork\BestBuy\src" />
-      <recent name="C:\Users\Shahida Lucky\IdeaProjects\Team3--AutomationFrameWork\Amazon\src\test" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Shahida Lucky\IdeaProjects\TeamSparkleSquare\Amazon\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Search.lookingForProducts">
-    <configuration default="false" name="C:/Users/Shahida Lucky/IdeaProjects/Team3--AutomationFrameWork/AetnaHealth/src/test/resources/aetnaHealthTestRunner.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="AetnaHealth" />
+  <component name="RunManager" selected="TestNG.C:/Users/Shahida Lucky/IdeaProjects/Team3--AutomationFrameWork/BestBuy/src/test/resources/bestbuyTestRunner.xml">
+    <configuration default="false" name="TestConnectDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="util.TestConnectDB" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/AetnaHealth/src/test/resources/aetnaHealthTestRunner.xml" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
+      <module name="Generic" />
       <envs />
-      <properties />
-      <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="C:/Users/Shahida Lucky/IdeaProjects/Team3--AutomationFrameWork/Amazon/src/test/resources/amazonTestRunner.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Amazon" />
+    <configuration default="false" name="DBConnectTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="util.DBConnectTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Amazon/src/test/resources/amazonTestRunner.xml" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
+      <module name="Generic" />
       <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="false" name="C:/Users/Shahida Lucky/IdeaProjects/Team3--AutomationFrameWork/Walmart/src/test/resources/walmartTestRunner.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Walmart" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Walmart/src/test/resources/walmartTestRunner.xml" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
       <method />
     </configuration>
     <configuration default="false" name="C:/Users/Shahida Lucky/IdeaProjects/Team3--AutomationFrameWork/BestBuy/src/test/resources/bestbuyTestRunner.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
@@ -473,20 +538,48 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="Search.lookingForProducts" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="C:/Users/Shahida Lucky/IdeaProjects/Team3--AutomationFrameWork/Facebook/src/test/resources/facebookTestRunner2.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Facebook" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Facebook/src/test/resources/facebookTestRunner2.xml" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="Uploading.testFileUpload" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="itemSearch.*" />
+          <option name="PATTERN" value="HomePage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="BestBuy" />
+      <module name="Facebook" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="itemSearch" />
-      <option name="MAIN_CLASS_NAME" value="itemSearch.Search" />
-      <option name="METHOD_NAME" value="lookingForProducts" />
+      <option name="PACKAGE_NAME" value="HomePage" />
+      <option name="MAIN_CLASS_NAME" value="HomePage.Uploading" />
+      <option name="METHOD_NAME" value="testFileUpload" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -773,19 +866,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.C:/Users/Shahida Lucky/IdeaProjects/Team3--AutomationFrameWork/AetnaHealth/src/test/resources/aetnaHealthTestRunner.xml" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.C:/Users/Shahida Lucky/IdeaProjects/Team3--AutomationFrameWork/Amazon/src/test/resources/amazonTestRunner.xml" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.C:/Users/Shahida Lucky/IdeaProjects/Team3--AutomationFrameWork/Walmart/src/test/resources/walmartTestRunner.xml" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.C:/Users/Shahida Lucky/IdeaProjects/Team3--AutomationFrameWork/BestBuy/src/test/resources/bestbuyTestRunner.xml" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.Search.lookingForProducts" />
+      <item index="0" class="java.lang.String" itemvalue="Application.TestConnectDB" />
+      <item index="1" class="java.lang.String" itemvalue="Application.DBConnectTest" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.C:/Users/Shahida Lucky/IdeaProjects/Team3--AutomationFrameWork/BestBuy/src/test/resources/bestbuyTestRunner.xml" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.C:/Users/Shahida Lucky/IdeaProjects/Team3--AutomationFrameWork/Facebook/src/test/resources/facebookTestRunner2.xml" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.Uploading.testFileUpload" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.Search.lookingForProducts" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.C:/Users/Shahida Lucky/IdeaProjects/Team3--AutomationFrameWork/BestBuy/src/test/resources/bestbuyTestRunner.xml" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.C:/Users/Shahida Lucky/IdeaProjects/Team3--AutomationFrameWork/Walmart/src/test/resources/walmartTestRunner.xml" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.C:/Users/Shahida Lucky/IdeaProjects/Team3--AutomationFrameWork/Amazon/src/test/resources/amazonTestRunner.xml" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.C:/Users/Shahida Lucky/IdeaProjects/Team3--AutomationFrameWork/AetnaHealth/src/test/resources/aetnaHealthTestRunner.xml" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.C:/Users/Shahida Lucky/IdeaProjects/Team3--AutomationFrameWork/BestBuy/src/test/resources/bestbuyTestRunner.xml" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.C:/Users/Shahida Lucky/IdeaProjects/Team3--AutomationFrameWork/Facebook/src/test/resources/facebookTestRunner2.xml" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.Uploading.testFileUpload" />
+        <item index="3" class="java.lang.String" itemvalue="Application.DBConnectTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TestConnectDB" />
       </list>
     </recent_temporary>
   </component>
@@ -836,43 +929,61 @@
       <option name="project" value="LOCAL" />
       <updated>1463159210851</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="profiling">
+      <created>1463170990650</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1463170990650</updated>
+    </task>
+    <task id="LOCAL-00008" summary="profiling">
+      <created>1463172405306</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1463172405306</updated>
+    </task>
+    <task id="LOCAL-00009" summary="profiling">
+      <created>1463329205758</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1463329205759</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_Shahida_Lucky_IdeaProjects_Team3--AutomationFrameWork_BestBuy_src_test_resources_bestbuyTestRunner_xml - 2016.05.13 at 10h 29m 13s.xml">
+    <history-entry file="C__Users_Shahida_Lucky_IdeaProjects_Team3--AutomationFrameWork_BestBuy_src_test_resources_bestbuyTestRunner_xml - 2016.05.15 at 12h 45m 46s.xml">
       <configuration name="C:/Users/Shahida Lucky/IdeaProjects/Team3--AutomationFrameWork/BestBuy/src/test/resources/bestbuyTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Shahida_Lucky_IdeaProjects_Team3--AutomationFrameWork_BestBuy_src_test_resources_bestbuyTestRunner_xml - 2016.05.13 at 10h 30m 42s.xml">
-      <configuration name="C:/Users/Shahida Lucky/IdeaProjects/Team3--AutomationFrameWork/BestBuy/src/test/resources/bestbuyTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_Shahida_Lucky_IdeaProjects_Team3--AutomationFrameWork_Facebook_src_test_resources_facebookTestRunner2_xml - 2016.05.15 at 00h 36m 24s.xml">
+      <configuration name="C:/Users/Shahida Lucky/IdeaProjects/Team3--AutomationFrameWork/Facebook/src/test/resources/facebookTestRunner2.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Shahida_Lucky_IdeaProjects_Team3--AutomationFrameWork_BestBuy_src_test_resources_bestbuyTestRunner_xml - 2016.05.13 at 11h 59m 05s.xml">
-      <configuration name="C:/Users/Shahida Lucky/IdeaProjects/Team3--AutomationFrameWork/BestBuy/src/test/resources/bestbuyTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_Shahida_Lucky_IdeaProjects_Team3--AutomationFrameWork_Facebook_src_test_resources_facebookTestRunner2_xml - 2016.05.15 at 00h 37m 54s.xml">
+      <configuration name="C:/Users/Shahida Lucky/IdeaProjects/Team3--AutomationFrameWork/Facebook/src/test/resources/facebookTestRunner2.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Shahida_Lucky_IdeaProjects_Team3--AutomationFrameWork_BestBuy_src_test_resources_bestbuyTestRunner_xml - 2016.05.13 at 12h 01m 09s.xml">
-      <configuration name="C:/Users/Shahida Lucky/IdeaProjects/Team3--AutomationFrameWork/BestBuy/src/test/resources/bestbuyTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_Shahida_Lucky_IdeaProjects_Team3--AutomationFrameWork_Facebook_src_test_resources_facebookTestRunner2_xml - 2016.05.15 at 00h 38m 53s.xml">
+      <configuration name="C:/Users/Shahida Lucky/IdeaProjects/Team3--AutomationFrameWork/Facebook/src/test/resources/facebookTestRunner2.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Shahida_Lucky_IdeaProjects_Team3--AutomationFrameWork_BestBuy_src_test_resources_bestbuyTestRunner_xml - 2016.05.13 at 12h 02m 11s.xml">
-      <configuration name="C:/Users/Shahida Lucky/IdeaProjects/Team3--AutomationFrameWork/BestBuy/src/test/resources/bestbuyTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_Shahida_Lucky_IdeaProjects_Team3--AutomationFrameWork_Facebook_src_test_resources_facebookTestRunner2_xml - 2016.05.15 at 00h 39m 57s.xml">
+      <configuration name="C:/Users/Shahida Lucky/IdeaProjects/Team3--AutomationFrameWork/Facebook/src/test/resources/facebookTestRunner2.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Shahida_Lucky_IdeaProjects_Team3--AutomationFrameWork_BestBuy_src_test_resources_bestbuyTestRunner_xml - 2016.05.13 at 12h 11m 57s.xml">
-      <configuration name="C:/Users/Shahida Lucky/IdeaProjects/Team3--AutomationFrameWork/BestBuy/src/test/resources/bestbuyTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_Shahida_Lucky_IdeaProjects_Team3--AutomationFrameWork_Facebook_src_test_resources_facebookTestRunner2_xml - 2016.05.15 at 00h 40m 47s.xml">
+      <configuration name="C:/Users/Shahida Lucky/IdeaProjects/Team3--AutomationFrameWork/Facebook/src/test/resources/facebookTestRunner2.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Shahida_Lucky_IdeaProjects_Team3--AutomationFrameWork_BestBuy_src_test_resources_bestbuyTestRunner_xml - 2016.05.13 at 12h 25m 11s.xml">
-      <configuration name="C:/Users/Shahida Lucky/IdeaProjects/Team3--AutomationFrameWork/BestBuy/src/test/resources/bestbuyTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_Shahida_Lucky_IdeaProjects_Team3--AutomationFrameWork_Facebook_src_test_resources_facebookTestRunner2_xml - 2016.05.15 at 00h 41m 45s.xml">
+      <configuration name="C:/Users/Shahida Lucky/IdeaProjects/Team3--AutomationFrameWork/Facebook/src/test/resources/facebookTestRunner2.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Shahida_Lucky_IdeaProjects_Team3--AutomationFrameWork_Walmart_src_test_resources_walmartTestRunner_xml - 2016.05.13 at 09h 44m 07s.xml">
-      <configuration name="C:/Users/Shahida Lucky/IdeaProjects/Team3--AutomationFrameWork/Walmart/src/test/resources/walmartTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_Shahida_Lucky_IdeaProjects_Team3--AutomationFrameWork_Facebook_src_test_resources_facebookTestRunner2_xml - 2016.05.15 at 00h 43m 13s.xml">
+      <configuration name="C:/Users/Shahida Lucky/IdeaProjects/Team3--AutomationFrameWork/Facebook/src/test/resources/facebookTestRunner2.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginOnFb_testLogOut - 2016.05.12 at 18h 51m 17s.xml">
-      <configuration name="LoginOnFb.testLogOut" configurationId="TestNG" />
+    <history-entry file="C__Users_Shahida_Lucky_IdeaProjects_Team3--AutomationFrameWork_Facebook_src_test_resources_facebookTestRunner2_xml - 2016.05.15 at 00h 54m 59s.xml">
+      <configuration name="C:/Users/Shahida Lucky/IdeaProjects/Team3--AutomationFrameWork/Facebook/src/test/resources/facebookTestRunner2.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Search_lookingForProducts - 2016.05.13 at 12h 31m 26s.xml">
-      <configuration name="Search.lookingForProducts" configurationId="TestNG" />
+    <history-entry file="C__Users_Shahida_Lucky_IdeaProjects_Team3--AutomationFrameWork_Facebook_src_test_resources_facebookTestRunner2_xml - 2016.05.15 at 00h 56m 16s.xml">
+      <configuration name="C:/Users/Shahida Lucky/IdeaProjects/Team3--AutomationFrameWork/Facebook/src/test/resources/facebookTestRunner2.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1932" height="1048" extended-state="0" />
+    <frame x="-9" y="-9" width="1924" height="1048" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -880,12 +991,12 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896176" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20846395" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16211963" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24555904" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2135362" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -898,7 +1009,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896176" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -918,7 +1029,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java</url>
+          <line>219</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -927,29 +1046,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BestBuy/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CitiBank/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cnn/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Facebook/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1068,13 +1164,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/lib/MySQL.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Cnn/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.548388">
@@ -1091,48 +1180,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/searchitems/SearchObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/searchitems/Search.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Cnn/src/test/java/news/SearchNewsFromDB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/util/DataReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/util/DBConnect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/util/TestDBConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1147,7 +1198,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.276644">
           <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1181,19 +1231,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/test/resources/facebookTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AetnaHealth/src/test/resources/aetnaHealthTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1201,9 +1242,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1211,17 +1249,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/searchitems/ProductsToBeSearched.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1229,52 +1256,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.354838">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Walmart/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.35484">
-          <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="84" column="16" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
-          <folding>
-            <element signature="e#3233#3234#0" expanded="true" />
-            <element signature="e#3300#3301#0" expanded="true" />
-            <element signature="e#3722#3723#0" expanded="true" />
-            <element signature="e#3802#3803#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/HomePage/LoginOnFb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Amazon/src/test/resources/amazonTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.806452">
+        <state vertical-scroll-proportion="0.0">
           <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BestBuy/src/test/resources/bestbuyTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.096774">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1282,39 +1270,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BestBuy/src/test/java/itemSearch/Search.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-          <folding>
-            <marker date="1463157238226" expanded="true" signature="245:718" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.548388">
-          <caret line="98" column="16" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BestBuy/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.5161295">
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AetnaHealth/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.935484">
+        <state vertical-scroll-proportion="0.0">
           <caret line="52" column="0" selection-start-line="21" selection-start-column="3" selection-end-line="52" selection-end-column="0" />
           <folding />
         </state>
@@ -1322,8 +1283,187 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CitiBank/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.039927404">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state vertical-scroll-proportion="-22.0">
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/HomePage/LoginOnFb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/searchitems/SearchObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/searchitems/ProductsToBeSearched.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/util/ConnectDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/lib/MySQL.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22680412">
+          <caret line="6" column="68" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/test/resources/facebookTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.354838">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/util/DBConnectTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/util/DataReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/util/TestConnectDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/searchitems/Search.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#421#422#0" expanded="false" />
+            <element signature="e#475#476#0" expanded="false" />
+            <element signature="e#506#507#0" expanded="false" />
+            <element signature="e#541#542#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BestBuy/src/test/java/itemSearch/Search.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="93" column="51" selection-start-line="93" selection-start-column="51" selection-end-line="93" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#3046#3047#0" expanded="false" />
+            <element signature="e#3075#3076#0" expanded="false" />
+            <element signature="e#3121#3122#0" expanded="false" />
+            <element signature="e#3188#3189#0" expanded="false" />
+            <element signature="e#3233#3234#0" expanded="false" />
+            <element signature="e#3300#3301#0" expanded="false" />
+            <element signature="e#3348#3349#0" expanded="false" />
+            <element signature="e#3409#3410#0" expanded="false" />
+            <element signature="e#3569#3570#0" expanded="false" />
+            <element signature="e#3644#3645#0" expanded="false" />
+            <element signature="e#3705#3706#0" expanded="false" />
+            <element signature="e#3774#3775#0" expanded="false" />
+            <element signature="e#3823#3824#0" expanded="false" />
+            <element signature="e#3903#3904#0" expanded="false" />
+            <element signature="e#3953#3954#0" expanded="false" />
+            <element signature="e#4020#4021#0" expanded="false" />
+            <element signature="e#4259#4260#0" expanded="false" />
+            <element signature="e#4299#4300#0" expanded="false" />
+            <element signature="e#4334#4335#0" expanded="false" />
+            <element signature="e#4377#4378#0" expanded="false" />
+            <element signature="e#4716#4717#0" expanded="false" />
+            <element signature="e#4783#4784#0" expanded="false" />
+            <element signature="e#6870#6871#0" expanded="false" />
+            <element signature="e#6918#6919#0" expanded="false" />
+            <element signature="e#6957#6958#0" expanded="false" />
+            <element signature="e#7007#7008#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/test/resources/facebookTestRunner2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/HomePage/Uploading.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-26.032259">
+          <caret line="107" column="40" selection-start-line="107" selection-start-column="40" selection-end-line="107" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Walmart/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.774193">
+          <caret line="49" column="17" selection-start-line="21" selection-start-column="3" selection-end-line="49" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BestBuy/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.83871">
+          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BestBuy/src/test/resources/bestbuyTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63883847">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
           <folding />
         </state>
       </provider>
