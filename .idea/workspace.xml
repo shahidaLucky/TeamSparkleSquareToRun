@@ -2,29 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ece07b79-b9b7-44ac-8383-8d3a34429da6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Facebook/src/test/java/HomePage/Uploading.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Facebook/src/test/resources/facebookTestRunner2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Generic/src/main/java/util/DBConnectTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Generic/src/main/java/util/TestConnectDB.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Generic/src/main/java/util/TestDBConnection.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Generic/src/main/java/util/DBConnect.java" afterPath="$PROJECT_DIR$/Generic/src/main/java/util/ConnectDB.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Generic/lib/MySQL.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Generic/src/main/java/util/ConnectDB.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Generic/src/main/java/util/DBConnectTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Generic/src/main/java/util/DataReader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Generic/src/main/java/util/TestConnectDB.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Amazon/data/file1.xls" afterPath="$PROJECT_DIR$/Amazon/data/file1.xls" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BestBuy/target/com.BestBuy-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/BestBuy/target/com.BestBuy-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CitiBank/target/com.citibank-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/CitiBank/target/com.citibank-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cnn/data/actionSteps.xls" afterPath="$PROJECT_DIR$/Cnn/data/actionSteps.xls" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" afterPath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/target/org.Generic-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/Generic/target/org.Generic-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BestBuy/BestBuy.iml" afterPath="$PROJECT_DIR$/BestBuy/BestBuy.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BestBuy/pom.xml" afterPath="$PROJECT_DIR$/BestBuy/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BestBuy/src/test/java/itemSearch/Search.java" afterPath="$PROJECT_DIR$/BestBuy/src/test/java/itemSearch/Search.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CitiBank/CitiBank.iml" afterPath="$PROJECT_DIR$/CitiBank/CitiBank.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Facebook/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/Facebook/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/lib/MySQL.properties" afterPath="$PROJECT_DIR$/Generic/lib/MySQL.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/src/main/java/util/DataReader.java" afterPath="$PROJECT_DIR$/Generic/src/main/java/util/DataReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="TeamSparkleSquare.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -93,11 +78,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bestbuyTestRunner.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bestbuyTestRunner.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BestBuy/src/test/resources/bestbuyTestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.63883847">
+            <state vertical-scroll-proportion="-11.354838">
               <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchNewsFromDB.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cnn/src/test/java/news/SearchNewsFromDB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Search.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Cnn/src/test/java/news/Search.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.03780069">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -162,32 +167,6 @@
               <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestConnectDB.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/util/TestConnectDB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Search.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/searchitems/Search.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#421#422#0" expanded="false" />
-                <element signature="e#475#476#0" expanded="false" />
-                <element signature="e#506#507#0" expanded="false" />
-                <element signature="e#541#542#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -279,30 +258,6 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
       </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="com.BestBuy" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="com.BestBuy" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Lifecycle" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
-        </PATH_ELEMENT>
-      </PATH>
     </treeState>
   </component>
   <component name="MavenRunner">
@@ -367,7 +322,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="BestBuy" />
+              <option name="myItemId" value="Generic" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -381,7 +336,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="BestBuy" />
+              <option name="myItemId" value="Generic" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -389,51 +344,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TeamSparkleSquare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Team3--AutomationFrameWork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BestBuy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TeamSparkleSquare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Team3--AutomationFrameWork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BestBuy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -947,7 +862,13 @@
       <option name="project" value="LOCAL" />
       <updated>1463329205759</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="profiling">
+      <created>1463330790834</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1463330790834</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1180,24 +1101,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cnn/src/test/java/news/SearchNewsFromDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cnn/src/test/java/news/Search.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Walmart/src/test/java/homePage/Search.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.276644">
           <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1242,6 +1150,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1270,6 +1181,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1307,20 +1221,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/util/ConnectDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/lib/MySQL.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22680412">
-          <caret line="6" column="68" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1328,32 +1229,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.354838">
           <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/util/DBConnectTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/util/DataReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/util/TestConnectDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1462,8 +1337,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BestBuy/src/test/resources/bestbuyTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63883847">
+        <state vertical-scroll-proportion="-11.354838">
           <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cnn/src/test/java/news/SearchNewsFromDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cnn/src/test/java/news/Search.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.03780069">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
       </provider>
